@@ -1,0 +1,65 @@
+body {
+    background: #2a94eb;
+    color: #0a435e;
+    margin: 3px;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-bottom: 80px;
+}
+
+header {
+    border-bottom: solid 1px rgb(18, 56, 138);
+    padding: 10px;
+    font-size: 35px;
+    color: rgb(18, 56, 138)
+}
+
+.chamada {
+    background: rgb(3, 12, 63);
+    padding-bottom: 65px;
+    padding-top: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+    font-family: "DM Serif Text", serif;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 22px;
+}
+
+img {
+    height: 200px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 13px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 25px;
+}
+
+.categoria-videos img {
+    opacity: 0.6;
+    height: 200px
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid rgb(18, 51, 70)
+}
+
+.categoria h2 {
+    color: rgb(9, 29, 71)
+}
